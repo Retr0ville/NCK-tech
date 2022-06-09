@@ -41,7 +41,10 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
-
+.avatar-img {
+  background-color: #027e9a;
+  border-radius: 999px;
+}
 .ls {
   letter-spacing: .15px;
 }

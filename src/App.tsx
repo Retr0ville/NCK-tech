@@ -1,23 +1,11 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Header';
 
 const App = () => {
   return (
     <div className="nck-home">
-      {/* --Header start-- */}
-      <div className="Nav-header d-flex align-items-center justify-content-center w-100 px-4 px-lg-5 py-4">
-        <div className="links d-flex justify-content-end align-items-end w-100  mw-992 mt-2">
-          <div className="d-flex pb-small">
-            <a className="me-5 text-decoration-none text-gray fw-600 ls" href="#">TRIPS</a>
-            <a className="me-5 text-decoration-none text-gray fw-600 ls" href="#">RECENTLY VIEWED</a>
-            <a className="me-5 text-decoration-none text-gray fw-600 ls" href="#">BOOKINGS</a>
-          </div>
-          <div className="avatar mx-3">
-            <img src="/images/avatar-alt.png" alt="avatar-min" width={42} height={42} />
-          </div>
-        </div>
-      </div>
-      {/* --Header end-- */}
+      <Header />
       <div className="nck-body d-flex flex-column align-items-center justify-content-center w-100 px-4 px-lg-5 py-4">
         <div className="d-flex flex-column justify-content-center align-items-center w-100 mw-992 mt-3">
           <hr className="align-self-start mb-4" />
@@ -45,7 +33,7 @@ const App = () => {
                   <p className="ms-3 fs mb-1">4324 5433 9382 1030</p>
                   <div className="d-flex align-items-center mb-2">
                     <img src="/images/signal.png" alt="signal" height={17} width={15} />
-                    <img src="/images/circuit.png" alt="circuit" width={50}  />
+                    <img src="/images/circuit.png" alt="circuit" width={50} />
                   </div>
                   <p className="ms-3 mb-2 fs-smaller">EXPIRATION DATE</p>
                   <p className="ms-3 fs mb-2">03/24</p>
