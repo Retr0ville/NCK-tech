@@ -94,3 +94,9 @@ input[type=number] {
   font-size: .83rem !important;
   height: 48px !important;
 }
+
+@media (max-width: 425px) {
+  .nck-home {
+    min-width: 425px !important;
+  }
+}
