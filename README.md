@@ -1,3 +1,5 @@
+hosted on https://rtrvl-ncktech.herokuapp.com/
+
 ## Available Scripts
 
 In the project directory, you can run:
