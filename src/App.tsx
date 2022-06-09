@@ -82,16 +82,16 @@ const App = () => {
             </div>
           </div>
           <hr className="align-self-start mb-4" />
-          <div className="d-flex flex-column">
-            <div className="d-flex justify-content-between">
+          <div className="d-flex flex-column w-100 pe-5 fw-500 ls">
+            <div className="d-flex justify-content-between w-100">
               <p>Subtotal</p>
               <p>#2,497.00</p>
             </div>
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-between w-100">
               <p>Estimated TAX</p>
               <p>#119.64</p>
             </div>
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-between w-100">
               <p>Promotional Code <span className="text-lighter">Z4KXLM9A</span></p>
               <p>#-60.00</p>
             </div>
