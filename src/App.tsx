@@ -40,8 +40,19 @@ const App = () => {
             </div>
             <div className="mt-3 d-flex flex-column flex-md-row w-100">
               <div className="col-12 col-md-6 pe-3">
-                <div className="credit mb-4 mb-md-0 rounded-3 d-flex flex-column">
-                  card
+                <div className="credit mb-5 mb-md-0 px-2 pt-4 pb-3 rounded-3 d-flex flex-column text-light overflow-hidden">
+                  <p className="ms-3 fs-smaller mb-2">CARD NUMBER</p>
+                  <p className="ms-3 fs mb-1">4324 5433 9382 1030</p>
+                  <div className="d-flex align-items-center mb-2">
+                    <img src="/images/signal.png" alt="signal" height={17} width={15} />
+                    <img src="/images/circuit.png" alt="circuit" width={50}  />
+                  </div>
+                  <p className="ms-3 mb-2 fs-smaller">EXPIRATION DATE</p>
+                  <p className="ms-3 fs mb-2">03/24</p>
+                  <div className="fs-small text-light d-flex ms-3 me-4 align-items-center justify-content-between">
+                    <p className="mb-0">John Doe</p>
+                    <img src="/images/mastercard.svg" alt="mastercard" width={67} className="align-self-start" />
+                  </div>
                 </div>
               </div>
               <div className="col-12 col-md-6">
@@ -74,7 +85,7 @@ const App = () => {
                     <input type="radio" className=" fs-small me-3 form-check-input" />
                     Use this card for next time purchase
                   </label>
-                  <button type="submit" className="button btn-primary w-100 me-4 d-flex align-items-center justify-content-center rounded border-0">
+                  <button type="button" className="button btn-primary w-100 me-4 d-flex align-items-center justify-content-center border-0">
                     Add card
                   </button>
                 </div>
@@ -82,20 +93,30 @@ const App = () => {
             </div>
           </div>
           <hr className="align-self-start mb-4" />
-          <div className="d-flex flex-column w-100 pe-5 fw-500 ls">
+          <div className="d-flex flex-column w-100 pe-5 fw-500 fs-mid mb-2">
             <div className="d-flex justify-content-between w-100">
               <p>Subtotal</p>
-              <p>#2,497.00</p>
+              <p>&#8358;2,497.00</p>
             </div>
             <div className="d-flex justify-content-between w-100">
               <p>Estimated TAX</p>
-              <p>#119.64</p>
+              <p>&#8358;119.64</p>
             </div>
             <div className="d-flex justify-content-between w-100">
-              <p>Promotional Code <span className="text-lighter">Z4KXLM9A</span></p>
-              <p>#-60.00</p>
+              <p>Promotional Code: <span className="text-lighter">Z4KXLM9A</span></p>
+              <p>&#8358;-60.00</p>
+            </div>
+            <hr className="align-self-start mb-4 w-100" />
+            <div className="pay d-flex flex-column flex-md-row justify-content-between">
+              <button type="submit" className="order-2 order-md-1 mb-5 align-self-start button btn-primary fs-6 ls fw-500 complete d-flex align-items-center justify-content-center border-0">
+                Complete payment
+              </button>
+              <span className="order-1 order-md-2 fw-900 fs-5 text-gray">
+                Total: &#8358;2556.64
+              </span>
             </div>
           </div>
+
         </div>
       </div>
     </div>
